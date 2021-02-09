@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tekstvigenere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="KEY" />
+
+            <RadioGroup
+                android:id="@+id/grupavigenere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/encrypt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sifriranje" />
+
+                <RadioButton
+                    android:id="@+id/decrypt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/desifriranje" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonvigenere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/solve" />
+
+            <TextView
+                android:id="@+id/rijesenjevigenere"
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Šifriranje</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Cezarova šifra</string>
+    <string name="tab_text_3">Vigenèreova šifra</string>
+    <string name="tab_text_4">ROT13</string>
+    <string name="tab_text_5">Nova funkcionalnost</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">Kriptografija omogućava dvjema osobama, pošiljatelju i primatelju, očuvanje tajnosti poruka čak i kada se one prenose nesigurnim vezama koje su dostupne trećim osobama.
+        Kriptografija se stoljećima primjenjivala za osiguravanje tajnosti pretežito vojne i diplomatske komunikacije.
+        Ispočetka su se postupci kriptiranja svodili na razmještanje (dislokaciju) znakova teksta ili na njihovu zamjenu (supstituciju).
+        Danas je, u doba razmjene poruka globalnim komunikacijskim mrežama, kriptografija u širokoj uporabi. Ona se bavi podatcima u digitalnom obliku, a postupci kriptiranja i dekriptiranja matematičke su naravi i provode se uz pomoć računala.
+        Suvremena je kriptologija tako informatička disciplina koja se oslanja na teoriju brojeva i druge matematičke teorije.</string>
+    <string name="cezar">Cezarova šifra
+Kod Cezarove šifre svako slovo se zamjenjuje odgovarajućim slovom iz abecede, pomaknutim za određeni broj mjesta. U ovom primjeru pomak je 3, tako da u šifratu slovo B postaje E.
+U kriptografiji, Cezarova šifra jedan je od najjednostavnijih i najrasprostranjenijih načina šifriranja. To je tip šifre zamjene (supstitucije), u kome se svako slovo otvorenog teksta zamjenjuje odgovarajućim slovom abecede, pomaknutim za određeni broj mjesta. Na primjer, s pomakom 3, A se zamjenjuje slovom D, B slovom E itd. Ova metoda je dobila ime po Juliju Cezaru, koji ju je koristio za razmjenu poruka sa svojim generalima.
+
+Cezarova šifra često se koristi kao korak u izradi složenijih načina šifriranja, kao što je Vigenèreova šifra, a ima i suvremenu upotrebu u sustavu "ROT13". Kao i sve ostale šifre jednostavne abecedne zamjene, Cezarova šifra lako se razbija i u praksi ne pruža nikakvu sigurnost u komunikaciji.</string>
+<string name="vigenere">Vigenèreova šifra je metoda šifriranja abecednog teksta korištenjem serije Cezarovih šifri, zasnovanih na slovima ključa. Ovo je jednostavni oblik šifre polialfabetske zamjene.
+
+Vigenèreova šifra je otkrivana više puta. Metodu je prvi opisao Giovan Battista Bellaso; međutim, poslije, u 19. stoljeću ta je shema pogrešno pripisana Blaiseu de Vigenèreu, tako da je sad poznata kao "Vigenèreova šifra".
+
+Šifra je dobro poznata zato što, iako je laka za razumijevanje i primjenu, početnicima izgleda kao neprobojna; tako je i dobila epitet fr. le chiffre indéchiffrable - neprobojna šifra. Stoga su mnogi pokušavali primijeniti sheme šifriranja, koje su u osnovi Vigenèreova šifra.</string>
+    <string name="desifriranje">Dešifriranje</string>
+    <string name="sifriranje">Šifriranje</string>
+    <string name="solve">Riješi</string>
+    <string name="webpage">nova stranica</string>
+    <string name="savetext">Spremi text</string>
+
+
+</resources>

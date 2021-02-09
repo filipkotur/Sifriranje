@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cryptography</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Caesar cipher</string>
+    <string name="tab_text_3">Vigenère cipher</string>
+    <string name="tab_text_4">ROT13</string>
+    <string name="tab_text_5">New funkcionality</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">Cryptography allows two people, the sender and the recipient, to maintain the confidentiality of messages even when they are transmitted by insecure connections that are accessible to third parties.
+        Cryptography has been used for centuries to ensure the secrecy of predominantly military and diplomatic communications. Initially, encryption procedures were reduced to the placement (dislocation) of text characters or their replacement (substitution).
+        Today, in the age of messaging global communication networks, cryptography is in wide use. It deals with data in digital form, and the encryption and decryption procedures are mathematical in nature and are carried out with the help of a computer.
+        Modern cryptology is such an IT discipline that relies on number theory and other mathematical theories.</string>
+    <string name="cezar">In Caesars code, each letter is replaced by a corresponding letter from the alphabet, shifted by a certain number of places. In this example, the offset is 3, so that in the cipher the letter B becomes E.In cryptography, it is one of the simplest and most widespread ways of coding. It is a type of substitution code, in which each letter of the plaintext is replaced by a corresponding letter of the alphabet, shifted by a certain number of places. For example, with offset 3, A is replaced by the letter D, B by the letter E, etc. This method is named after Julius Caesar, who used it to exchange messages with his generals.
+    The Caesar cipher is often used as a step in the development of more complex encryption methods, such as the Vigenère cipher, and has modern use in the "ROT13" system. Like all other simple alphabetic substitution codes, It is easily broken and in practice does not provide any security in communication.</string>
+    <string name="vigenere">The Vigenère cipher is a method of encrypting alphabetic text using a series of Caesar ciphers, based on key letters. This is a simple form of polyalphabetic replacement code.
+The method was first described by Giovan Battista Bellaso; however, later, in the 19th century, this scheme was wrongly attributed to Blaise de Vigenère, so that it is now known as the "Vigenère code".
+The code is well known because, although easy to understand and apply, it seems impenetrable to beginners, that is how she got the epithet fr. le chiffre indéchiffrable - impenetrable code. Therefore, many have tried to apply encryption schemes, which are basically Vigenère’s cipher.
+</string>
+    <string name="desifriranje">Decrypt</string>
+    <string name="sifriranje">Encrypt</string>
+    <string name="solve">Solve</string>
+    <string name="webpage">Surf web</string>
+    <string name="savetext">Save text</string>
+</resources>
